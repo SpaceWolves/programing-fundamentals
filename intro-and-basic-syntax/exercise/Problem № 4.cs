@@ -13,7 +13,7 @@ namespace Problem___4.cs
 
             double totalEnergy = (double)(volumeInMililiters * energyContentPer100ml) / 100;
             double totalSugar = (double)(volumeInMililiters * sugarContentPer100ml) / 100;
-
+ 
             Console.WriteLine($"{volumeInMililiters}ml {productName}:");
             Console.WriteLine($"{totalEnergy}kcal, {totalSugar}g sugars");
         }
