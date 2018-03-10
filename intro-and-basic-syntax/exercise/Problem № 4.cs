@@ -1,4 +1,4 @@
-﻿using System;
+﻿cousing System;
 
 namespace Problem___4.cs
 {
@@ -6,6 +6,7 @@ namespace Problem___4.cs
     {
         static void Main(string[] args)
         {
+            //hello ...documented
             string productName = Console.ReadLine();
             int volumeInMililiters = int.Parse(Console.ReadLine());
             int energyContentPer100ml = int.Parse(Console.ReadLine());
