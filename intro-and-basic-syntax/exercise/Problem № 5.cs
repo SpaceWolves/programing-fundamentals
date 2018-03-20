@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFIRMED from <IliqNikolov>
+using System;
 
 namespace Problem__5
 {
