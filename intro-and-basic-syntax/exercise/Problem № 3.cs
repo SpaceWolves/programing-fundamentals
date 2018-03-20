@@ -20,6 +20,7 @@ class MultidimentionalArrays
         {
             for (int col = 0; col < columns; col++)
             {
+                //Adding new variables
                 char rowChar = alphabet[row];
                 char colChar = alphabet[col + row];
                 result[row, col] = string.Format($"{rowChar}{colChar}{rowChar}");
