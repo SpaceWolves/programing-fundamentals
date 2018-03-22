@@ -9,9 +9,9 @@ class MultidimentionalArrays
         string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
         int rows = size[0];
-        int columns = size[1];
+        int cols = size[1];
 
-        string[,] result = new string[rows, columns];
+        string[,] result = new string[rows, cols];
 
         for (int row = 0; row < rows; row++)
         {
@@ -25,7 +25,7 @@ class MultidimentionalArrays
 
         for (int row = 0; row < rows; row++)
         {
-            for (int col = 0; col < columns; col++)
+            for (int col = 0; col < cols; col++)
             {
                 Console.Write($"{result[row, col]} ");
             }
