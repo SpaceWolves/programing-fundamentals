@@ -9,6 +9,7 @@ namespace ConsoleApp1
         {   //In one line we receive four integers. 
             //In the same line we print them.
             //If the integers are with less than 4 digits, we add zeroes until they represent four digit numbers.
+			const int Const=6;
             Console.WriteLine($"{int.Parse(Console.ReadLine()):d4} {int.Parse(Console.ReadLine()):d4} {int.Parse(Console.ReadLine()):d4} {int.Parse(Console.ReadLine()):d4}");
         }
     }
