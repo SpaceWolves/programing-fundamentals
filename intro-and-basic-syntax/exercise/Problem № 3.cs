@@ -9,16 +9,16 @@ class MultidimentionalArrays
         int[] size = Console.ReadLine().Split().Select(int.Parse).ToArray();
         string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-        //Getting the count of rows and columns
+        //Getting the count of rows and cols
         int rows = size[0];
-        int columns = size[1];
+        int cols = size[1];
 
-        string[,] result = new string[rows, columns];
+        string[,] result = new string[rows, cols];
 
         //Filling the result array
         for (int row = 0; row < rows; row++)
         {
-            for (int col = 0; col < columns; col++)
+            for (int col = 0; col < cols; col++)
             {
                 //Adding new variables
                 char rowChar = alphabet[row];
@@ -30,7 +30,7 @@ class MultidimentionalArrays
         //Printing the result array in several rows
         for (int row = 0; row < rows; row++)
         {
-            for (int col = 0; col < columns; col++)
+            for (int col = 0; col < cols; col++)
             {
                 Console.Write($"{result[row, col]} ");
             }
